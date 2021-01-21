@@ -112,7 +112,7 @@ def is_validated_english_sentence(user_input):
 
     find_digit = re.compile("[0-9]")
     find_schar = "_@#$%^&*()-+=[]{}\"';:\|`~"
-    find_punc = ".,!?"
+    find_punc = ".,!? "
 
     # 조건 1
     if find_digit.search(user_input) != None:
